@@ -2,7 +2,7 @@
 
 /**
  * @author Chanh Ong
- * @package ClassLoaderLite
+ * @package PhpLoaderLite
  * @since 2.0
  */
 namespace PhpLoaderLite;
