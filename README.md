@@ -17,20 +17,30 @@ Usage
 Use Case: Use with composer
 
 use PhpLoaderLite\NsClassLoader;
+
     NsClassLoader::addPath("src" .DS. "controller");
+
     NsClassLoader::addPath("src" .DS. "model");
+
     // create class and register auto loader
+
     $autoloader = new NsClassLoader();
 
 Use Case: Use with your own code: 
 --------
 
 use PhpLoaderLite\NsClassLoader;
+
     if (!class_exists('PhpLoaderLite\NsClassLoader')) {
+
         require_once('src/nsclassloader.php');
+
         NsClassLoader::addPath( "src" .DS. "controller");
+
         NsClassLoader::addPath( "src" .DS. "model");
+
         // create class and register auto loader
+        
         $autoloader = new NsClassLoader();
     }  
 
