@@ -1,0 +1,25 @@
+{
+    "name": "chanhong/phploaderlite",
+    "description": "PHP class auto loader lite",
+    "keywords": ["loader", "lite", "phploaderlite"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chanh Ong",
+            "homepage": "https://github.com/chanhong"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpLoaderLite\\": "/src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }    
+}
